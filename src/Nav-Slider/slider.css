@@ -1,0 +1,68 @@
+.slider-content  {
+     transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    padding: 0;                   
+   overflow: visible;
+    
+  } 
+  
+
+
+  .slider-content.Open {
+
+     overflow:hidden;    
+     background: transparent;
+    max-height: 300px;            
+    opacity: 1;                              
+    transition: max-height 1s ease-in-out, opacity 1s ease-in-out, padding 1s ease-in-out; 
+
+  } 
+  /* Optional extra: Add slide-in effect for better visibility */
+.Open {
+    
+  animation: slideDonwn 1s forwards ;
+  }
+.slider-content.Open{
+  animation: slideDonwn 1s forwards ;
+  }
+  
+ .Block{
+  display: none;
+ }
+
+  
+  @media screen and (max-width:600px) {
+   
+    .slider-content{
+      animation: slideDonwn 1s forwards ;
+      position:fixed;
+      max-width: 0px;
+
+    }
+    .Close {
+      animation:2s ease-in ; 
+    
+     animation: slideDonwn 1s forwards ;
+      top:89px;   
+      left:0px;
+      right:0px;
+      padding:20px; 
+      max-width: 100%;
+      height: 250px;
+      background:#000;
+
+  
+    } 
+    
+  }
+  
+      /* Slide down animation */
+      @keyframes slideDown {
+        from {
+          transform: translateY(-120px);
+
+          to {
+            transform:translateY(20px) 
+          }
+          
+        } 
+      }

@@ -1,0 +1,372 @@
+:root{
+  --pirmary:#fff; 
+
+
+}
+.ul-list a{
+  color:#ebe9e9;
+  text-decoration: none;
+  padding:0px;
+  margin-right:20px;
+  margin-left: 40px;
+ 
+  font-size: 15px;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",;
+}
+a{
+  text-decoration: none;
+  color:#b8b3b3;
+  font-family: sans-serif;
+  font-weight:700;
+}
+.Navbar button a{
+  color:white;
+  font-weight: 900;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.Navbar .btn--outline {
+  padding:12px 14px;
+  
+}
+.Navbar .btn--outline:hover{
+ background: transparent;
+ border:1px solid rgb(255, 255, 255);
+ color:red; 
+ 
+ 
+}
+.fa-phone:hover{
+ padding:12px;     
+}
+
+ul a:hover{
+  cursor: pointer;
+  
+
+}
+ 
+*{
+    margin:0px;
+    padding:0px;
+
+}
+li{
+    list-style: none; 
+    padding-left:80px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;; 
+    
+  }
+.Navbar{
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  justify-content:space-between;
+  max-width:120vw;
+  align-items: center;
+  padding:0px 10px;
+  margin: auto;
+  color:white;
+  padding-top:10px;
+
+  }
+
+  .Navbar img{
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    width: 80px;
+   
+   
+
+  }
+  .ul-list{
+    display: flex; 
+    align-items: center; 
+    
+}
+
+ul li{
+
+
+  text-align: center;
+
+  
+} 
+  
+.border-active{
+  border-bottom: 2px solid red;
+  
+}
+/* .Hero-Section{ 
+
+  height: 647px;
+} */
+
+
+/* .Hero-Section{
+  background:url(../Banner-img/Banner-Section.webp);
+  height:60vw;
+  width:100%;
+  background-size: cover; 
+  margin-top: -100px;
+ 
+
+} */
+/* .Hero-Section::before {
+  content: '';
+  position: absolute;
+
+  top: 0;
+  height: inherit;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7)
+ } */
+
+
+/*ANNIMATION*/
+ 
+/* @keyframes moveToTop {
+  from {
+    transform: translateY(0px); 
+  } 
+  to {
+    transform: translateY(-220px);
+  }
+} */
+/**/
+.hidden{
+  opacity: 0;
+  transform: all 1s;
+}
+.show{
+  opacity: 1;
+}
+
+.Ani-Active{
+  animation:appear 2s ease-in;
+  /* animation-timeline:view();
+  animation-range:entry 0; */
+}
+.hidden{
+  opacity:0;
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+}
+section{
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color:white;
+  margin-left:auto;
+  margin-right:auto; 
+  max-width:900px; 
+  min-height:100%; 
+  margin-bottom: 184px;
+
+
+
+}
+
+
+section h1{
+  padding-bottom: 22px;
+}
+.Headline{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top:50px;
+  text-align: center;
+  color:var(--primary);
+  
+} 
+section h1{
+  font-size:50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;;
+  font-weight: 800;
+}
+section h3{
+  padding-top:20px;
+  
+}
+section .TextChange{
+  font-size:50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;;
+  font-weight: 700;
+  
+}
+/* .Headline h1{
+  font-size:60px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;;
+  font-weight: 700;
+} */
+.element-icon{
+display: flex;
+padding-bottom:50px;
+font-size: 14px;
+}
+.element-icon p{
+  margin-right: 30px;
+  
+  
+}
+.element-icon span{
+  margin-left:7px;
+}
+.flex-btn{
+  text-align: center;
+  padding-top:50px;
+  transition:all ease 2s;   
+} 
+.flex-btn button{
+  margin-right:70px; 
+
+}
+
+.sec-1 .flex-btn{
+  animation: Textup 2s ease-in-out forwards; 
+  transform:translateY(260px); 
+}   
+.sec-1.show-animate .flex-btn{
+  transform: translateY(0px);
+} 
+
+.element-icon{
+  padding-bottom:0px;
+}
+.element-icon span{ 
+  font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;;
+  font-weight:700;
+  color:white; 
+  font-size: 16px;
+ 
+}
+
+.combine .fa-bars{
+  padding-right:31px;
+}
+.fa-bars{
+  display: none; 
+}
+.Enb-600px{
+  display: none; 
+}
+
+
+@media screen and (max-width:1200px) {
+  
+ .flex-btn button{
+  margin-right: 0px;
+ }
+ .ul-list a{
+  margin-right: 0px;
+ }
+section{
+  max-width: 800px;
+}
+ 
+  .fix{
+    max-width: 100%;
+    margin:auto;
+  }
+ 
+ 
+} 
+@media  screen and (max-width:786px) {
+  .Navbar{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .fa-bars{
+    display:inline;
+  }
+  .large-logo{
+    display: none;
+  }
+  .fa-xmark{
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  .Enb-600px{
+    display: block;
+  }
+  .dis-logo{
+    display: none; 
+  }
+  .Headline{
+    padding-top:20px; 
+  }
+  .Hero-Section{
+    height:700px;
+  }
+  .ul-list{
+    flex-wrap: wrap;
+    display: grid;
+    text-align: center;
+    
+  }
+  .ul-list a{
+      margin-left: 0px;
+      text-decoration: underline;
+      width: 84px;
+      margin:auto;
+      
+  } 
+  .flex-btn{
+    display:inline;
+  }
+  .flex-btn .btn-Mobile:first-child button{
+    width: 90%;
+    margin-bottom: 14px;
+    margin-top:40px;
+  }  
+  .element-icon{
+    padding-bottom: 0px;
+  }
+  .element-icon p{
+    padding-bottom: 25px;
+  }
+  .combine .btn-Mobile{ 
+    display:none; 
+    padding:0px;
+  }
+  .fix{
+    max-width: 600px;
+    margin:auto;
+    padding:20px;
+  }
+  .container-section{
+    flex-wrap: wrap;
+  }
+  .About-Container{
+    width: 100%; 
+    
+  }
+  
+  section h1{ 
+    font-size:27px; 
+  }
+  section .TextChange{
+    font-size:29px;
+  }  
+  section h3{
+    font-size:12px;
+
+  }
+  
+}

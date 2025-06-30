@@ -1,0 +1,48 @@
+
+:root{
+    --primary:white;
+    --dark:#ec3737;
+}
+
+.btn{
+    padding:8px 20px;
+    border-radius:2px;
+    background-color:var(--dark);
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+.btn--primary{
+    background-color:var(--dark);
+}
+.btn--outline{
+    border:none;
+    outline:0;
+    color:#fff;
+    padding:16px 32px;
+   
+}
+.btn--outline-service{
+    border:none;
+    background: transparent;
+    border-bottom:3px solid red; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:var(--primary);
+}
+
+
+.btn--mediume{
+    padding:8px 20px; 
+}
+.fa-phone{
+padding:9px 10px;
+border-radius:50px;
+border:none;
+margin-right:15px;
+background:#ec3737; 
+color:white;
+}
+/* .fa-paper-plane{
+    margin-right:5px;
+} */
