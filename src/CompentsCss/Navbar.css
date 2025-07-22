@@ -63,7 +63,7 @@ li{
   z-index: 1;
   display: flex;
   justify-content:space-between;
-  max-width:120vw;
+  max-width:100%;
   align-items: center;
   padding:0px 10px;
   margin: auto;

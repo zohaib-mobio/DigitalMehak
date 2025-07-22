@@ -79,6 +79,7 @@
 @media  screen and (max-width:786px) {
   .video-background-container{
     top:0px;
+    bottom: 0px;
     height: 100%; 
   }  
   .video-background{ 
@@ -89,6 +90,9 @@
   .video-background-container{
     top:0px;
     height: 100%;
+  }
+  .video-background-container::before{
+    height: 120vw;
   }
   .video-background{
     height: 100%; 

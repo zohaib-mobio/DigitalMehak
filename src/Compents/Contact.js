@@ -188,7 +188,6 @@ export default function Contact() {
     <div className="img-box">
      <img src="../Images/ContactHeader.webp"alt="" />
     </div>  
-    
 
     
     <div className="text-box">
@@ -200,6 +199,19 @@ Limited Period Offer: Register now and get 20% off on your course fees! Do not l
 Receive rich information and knowledge that will be invaluable in differentiating you. The seats are filling up. Book your seat fast!
         </p>
         <a href="https://www.behance.net/mehaknaz1" target="_blank" rel="noreferrer">My Portfolio</a>
+    </div>
+</div> 
+<div className="img-box-container img-box-container-margintop">
+    <div className="img-box">
+     <img src="../Images/MinDigitalProfile.jpg"alt="" />
+    </div>      
+    <div className="text-box">
+      <h1>Ayesha Ayaz – Social Media Manager
+</h1>
+      <p>
+   With a sharp eye for trends and a passion for creative storytelling, I help brands connect with their audience through impactful social media strategies. From designing engaging content to building consistent brand voices, I manage each platform with precision and purpose. I believe in the power of digital presence and work behind the scenes to make sure every post, reel, and campaign aligns with the brand’s vision and goals.
+        </p>
+        <a href="#">My Portfolio</a>
     </div>
   </div>  
  

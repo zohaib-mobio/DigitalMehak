@@ -65,7 +65,7 @@ export default function About() {
         </div>   
         
         <div className="portfolio-banner">
-          <img src='../Images/Porfolio.webp' alt="Portfolio"/>
+          <img src='../Images/Porfolio.jpg' alt="Portfolio"/>
           <div className="button">
             <button onClick={openFullScreen}>Check Out My CV</button>
           </div> 
