@@ -203,7 +203,7 @@ Receive rich information and knowledge that will be invaluable in differentiatin
 </div> 
 <div className="img-box-container img-box-container-margintop">
     <div className="img-box">
-     <img src="../Images/MinDigitalProfile.jpg"alt="" />
+     <img src="../Images/MiniDigitalProfile.jpg"alt="" />
     </div>      
     <div className="text-box">
       <h1>Ayesha Ayaz – Social Media Manager

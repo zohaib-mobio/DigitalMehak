@@ -78,7 +78,7 @@ export default function About() {
           <button className="close-button" onClick={closeFullScreen}>
             &times;
           </button>
-          <img src='../Images/DigitalMehak-Cv.webp' alt="fullscreen" className="fullscreen-image" />
+          <img src='/images/DigitalMehakCv.jpg' alt="fullscreen" className="fullscreen-image" />
           {cvData && <p>{cvData}</p>} {/* Display fetched data */}
         </div> 
       )}
